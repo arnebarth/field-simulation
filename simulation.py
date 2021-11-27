@@ -1,10 +1,8 @@
 import os, sys
 
-from numpy.core.fromnumeric import repeat
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 import matplotlib
 import matplotlib.pyplot as plt
-import matplotlib.animation as animation
 from matplotlib.animation import FuncAnimation
 plt.rcParams['animation.ffmpeg_path'] = r'D:\\Program Files\\ffmpeg\\bin\\ffmpeg.exe'
 import numpy as np
